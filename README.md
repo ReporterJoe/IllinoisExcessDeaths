@@ -641,7 +641,7 @@ IL_vs_US_by_week <- merge(x=US_weekly_excess_weighted, y=IL_weekly_excess_weight
 
 
 
-# So let's try one more thing - looking overall during this 10 months at percetn incrase in deaths by age group.
+#So let's try one more thing - looking overall during this 10 months at percetn incrase in deaths by age group.
 
 IL_by_age_overall <- CDC_by_age_2 %>% 
   group_by(`Age Group`) %>% 
